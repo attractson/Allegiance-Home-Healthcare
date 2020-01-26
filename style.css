@@ -1,0 +1,195 @@
+body, html{
+    background-color:white;
+    margin: 0;
+}
+
+.mainTitle{
+    text-align:center;
+    color: white;
+    background-color: #222222;
+    padding:30px;
+}
+
+.main{
+    font-size:100px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.second{
+    font-size: 90px;
+    font-family: 'Nanum Brush Script';
+}
+
+.menuButtons{
+    text-align: center;
+    margin:0;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #222222;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  .menuButtons{
+      width:100%;
+  }
+
+
+  .tabcontent{
+      margin:0;
+      font-family: 'Bree Serif', serif;
+  }
+
+  .tabcontent h1{
+      font-size:50px;
+      margin-top:-80px;
+      font-family: 'Bree Serif', serif;
+  }
+
+  .tabcontent h3{
+      font-size:30px;
+  }
+
+  #Video{
+      text-align: center;
+  }
+  .members{
+      text-align: center;
+  }
+
+  .tabcontent h4{
+    font-size:70px;
+    font-family: 'Bree Serif', serif;
+    margin-top:-250px;
+    color:white;
+  }
+  
+  .tablink:hover {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+  .col{
+    float: left;
+    width: 40%;
+    padding: 5px;
+    align-content: center;
+    margin-left: 6%;
+    margin-bottom: 50px;
+  }
+
+  .membersTitle{
+      font-size:40px;
+  }
+
+  .choreo{
+      font-size:40px;
+  }
+
+  .membersName{
+      font-size:20px;
+  }
+
+  
+
+  /* -------------------News section-------------- */
+ #News p{
+      border: 0.5px solid gray;
+      width: 50%; 
+      margin-left: 22%;
+      padding: 30px 70px;
+  }
+
+  #News .time{
+      font-weight: bold;
+      font-size: 20pt;
+      padding-bottom: 10px;
+  }
+  #News .post{
+      line-height: 10pt;
+  }
+
+  #News img{
+      width: 100px;
+      height: 100px;
+      padding-right: 20px;
+  }
+
+  h5{
+      font-size: 50pt;
+      color: rgb(66,103,178);
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      line-height: 100px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-family: 'Bree Serif', serif;
+  }
+
+  #calendar iframe{
+      margin-left: 18%;
+      color: grey;
+  }
+
+  #calendar i{
+      padding-right: 20px;
+      
+  }
+  #calendar h5 {
+      padding-top: 0;
+    color: rgb(76, 85, 105);
+  } 
+
+  /* ------Event List------ */
+
+  #events{
+    font-family: 'Bree Serif', serif;
+  }
+  #events h5{
+      color: midnightblue;
+  }
+
+  #formToDo{
+      display: none;
+  }
+
+
+.ToDo{
+    font-size: 20pt;
+    border: none;
+    border-bottom: 1px solid #767676;
+    text-align: left;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.ToDo p{
+    display:inline;
+    max-width: 80%;
+    font-weight: normal;
+    color: #484848;
+}
+.ToDo.complete p{
+    text-decoration: line-through;
+    color: #4848485b;
+}
+.ToDo .delete{
+    display: none;
+}
